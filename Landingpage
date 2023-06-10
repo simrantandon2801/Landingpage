@@ -1,0 +1,123 @@
+import React from 'react'
+
+import { Button,Grid, Typography } from '@mui/material';
+import Image from 'mui-image'
+function Landingpage1  ()  {
+ 
+  return (
+    <div>
+     <Grid container lg={12}  sx={{marginTop:'99px'}}  >
+						<Grid container lg={10}sx={{margin:'auto'}}>
+              
+							<Grid item  lg={6.8}  >
+							<Typography  sx={{ fontWeight: '800', fontSize: '64px', color:'#1E1E1E',  lineHeight: '77px', fontFamily:'Inter',fontStyle:'normal'}}>
+              Choose the BEST!
+</Typography>
+					</Grid>
+							<Grid item  lg={12}  >
+						
+								 
+										<Grid item  lg={5.8} >
+							<Typography  sx={{ fontWeight: '400', fontSize: '20px',fontFamily:'Inter',fontStyle:'normal'}}>4 Million Individual books are published annually<br/> leaving behind 99% of the submissions unnoticed.<br/> We believe there is no such thing as a bad story.	</Typography>
+							</Grid>
+								<Grid item lg={6}sx={{marginTop:'16px'}} >
+									<Typography  sx={{ fontWeight: '400', fontSize: '20px',  fontFamily:'Inter',fontStyle:'normal'  }}>Choose a story that you want to read from <br/> a pool of Manuscripts and make it your<br/> next Bestseller.</Typography>
+								</Grid>
+								
+		
+					</Grid>	
+					<Grid container direction="row" lg={6} sx={{marginTop:'32px'}}>
+  <Grid item lg={5}>
+    <Button variant='contained' sx={{ borderRadius: '8px', textTransform: 'none',fontFamily:'Inter' ,fontSize: '20px', fontWeight: "500", lineHeight: "24px", width:  '188px', height: "54px" , backgroundColor: '#007F85', color: '#fff',fontStyle:'normal' }}>
+      Reader
+    </Button>
+  </Grid>	
+  <Grid item lg={5}>
+    <Button variant='contained' sx={{ borderRadius: '8px', textTransform: 'none',fontFamily:'Inter', fontSize: '20px', fontWeight: "500", lineHeight: "24px", width:  '188px', height: "54px", backgroundColor: '#007F85', color: '#fff',fontStyle:'normal' }}>
+      Creator
+    </Button>
+  </Grid>
+</Grid>
+
+<Grid Container lg={6}   >
+							<Grid item  lg={12} sx={{marginTop:'-100px'}} >	
+								
+								
+             
+      <Image
+        Duration={0}
+        src="https://drive.google.com/uc?export=view&id=12Krz59BrmVX6APRgDE5YzM6vck2zHWwS"
+        style={{ width: '456px', height: '456px', transitionDuration: '0', animation: '0', position: 'absolute', zIndex: 0 }}
+      />
+                
+        <Image
+          Duration={0}
+          src="https://drive.google.com/uc?export=view&id=1jH4hj4uQEW_ccNo-bDF9UX_20XZNLaCK"
+          style={{ width: '340px', height: '392px', marginTop:'64px' ,transitionDuration: '0', animation: '0', position: 'absolute', zIndex: 1}}
+        />
+      
+   
+									
+									
+</Grid>			
+						
+				</Grid>
+			
+        <Grid container lg={12}  sx={{margin:'auto', backgroundColor:'#DAFDF5' ,width:'1140px',height:'256px', borderRadius:'26px',marginTop:'147px'}}>
+				   <Grid item lg={12} >
+				   <Typography sx={{ textAlign: 'center',marginTop:'40px',color:'#1E1E1E',fontFamily:'Inter' ,fontSize: '24px', fontWeight: "500", }}>See your manuscript...</Typography>
+			</Grid>
+				   
+				   
+				   
+  <Grid item lg={6} >
+  <Grid item lg={12}>
+  
+    <Image
+      Duration={0}
+      src="https://drive.google.com/uc?export=view&id=1pKPWTSoPWSoxdv58wEbwkT9zdL4BDcdo"
+      style={{
+       
+        width: '55px',
+        height: '51px',
+        transitionDuration: '0',
+        animation: '0',
+      }}
+    />
+    <Typography  sx={{fontFamily:'Inter' ,fontSize: '24px', fontWeight: "600",textAlign:'center' }}>
+    Get published
+    </Typography>
+  
+</Grid>
+
+     
+  </Grid>
+  
+  <Grid item lg={6}>
+  <Grid item lg={8}>
+  <Image
+    Duration={0}
+    src="https://drive.google.com/uc?export=view&id=1kOVNk29UpgkvOgNrpOW_81udfzPmv9Kz"
+    style={{
+   
+      width: '40px',
+      height: '45px',
+      transitionDuration: '0',
+      animation: '0',
+    }}
+
+  />
+ <Typography  sx={{fontFamily:'Inter' ,fontSize: '24px', fontWeight: "600",textAlign:'center' }}>
+ Get produced to movies/ series
+    </Typography>
+</Grid>
+</Grid>
+</Grid>
+
+				</Grid>
+			</Grid>
+    </div>
+  )
+}
+
+export default Landingpage1
